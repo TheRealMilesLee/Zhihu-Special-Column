@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leemiles/知乎专栏/C++/Random_number_generator/random.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+random
+-
+
