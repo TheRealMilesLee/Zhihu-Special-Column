@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>
 
 using namespace std;
 
@@ -10,9 +9,11 @@ int main()
   double dNum = 5595.950425;
 
 
-  string textInt = std::to_string(iNum); string textDouble = std::to_string(dNum);
+  string textInt = to_string(iNum); string textDouble = to_string(dNum);
+  string textlong = to_string(lNum);
   cout << "\nConverted int value: " << textInt;
   cout << "\nConverted double value: " << textDouble;
+  cout << "\nConverted long value: " << textlong;
   
   return 0;
 }
