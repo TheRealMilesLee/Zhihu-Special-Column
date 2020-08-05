@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\CS Related\Zhihu-Special-Column\C++\Class"
+CMAKE_SOURCE_DIR = "D:\CS Related\Zhihu-Special-Column\C++\Dynamic_Pointer_object"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\CS Related\Zhihu-Special-Column\C++\Class\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\CS Related\Zhihu-Special-Column\C++\Dynamic_Pointer_object\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CS Related\Zhihu-Special-Column\C++\Class\cmake-build-debug\CMakeFiles" "D:\CS Related\Zhihu-Special-Column\C++\Class\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CS Related\Zhihu-Special-Column\C++\Dynamic_Pointer_object\cmake-build-debug\CMakeFiles" "D:\CS Related\Zhihu-Special-Column\C++\Dynamic_Pointer_object\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CS Related\Zhihu-Special-Column\C++\Class\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CS Related\Zhihu-Special-Column\C++\Dynamic_Pointer_object\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Class
+# Target rules for targets named Dynamic_Pointer_object
 
 # Build rule for target.
-Class: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Class
-.PHONY : Class
+Dynamic_Pointer_object: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Dynamic_Pointer_object
+.PHONY : Dynamic_Pointer_object
 
 # fast build rule for target.
-Class/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Class.dir\build.make CMakeFiles/Class.dir/build
-.PHONY : Class/fast
+Dynamic_Pointer_object/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dynamic_Pointer_object.dir\build.make CMakeFiles/Dynamic_Pointer_object.dir/build
+.PHONY : Dynamic_Pointer_object/fast
 
 main.obj: main.cpp.obj
 
@@ -148,7 +148,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Class.dir\build.make CMakeFiles/Class.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dynamic_Pointer_object.dir\build.make CMakeFiles/Dynamic_Pointer_object.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -157,7 +157,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Class.dir\build.make CMakeFiles/Class.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dynamic_Pointer_object.dir\build.make CMakeFiles/Dynamic_Pointer_object.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -166,7 +166,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Class.dir\build.make CMakeFiles/Class.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dynamic_Pointer_object.dir\build.make CMakeFiles/Dynamic_Pointer_object.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,7 +177,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Class
+	@echo ... Dynamic_Pointer_object
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

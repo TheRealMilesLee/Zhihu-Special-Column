@@ -63,16 +63,16 @@ RM = "C:\Program Files\JetBrains\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\CS Related\Zhihu-Special-Column\C++\Class"
+CMAKE_SOURCE_DIR = "D:\CS Related\Zhihu-Special-Column\C++\Dynamic_Pointer_object"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\CS Related\Zhihu-Special-Column\C++\Class\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\CS Related\Zhihu-Special-Column\C++\Dynamic_Pointer_object\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Class.dir/all
+all: CMakeFiles/Dynamic_Pointer_object.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Class.dir/clean
+clean: CMakeFiles/Dynamic_Pointer_object.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Class.dir
+# Target rules for target CMakeFiles/Dynamic_Pointer_object.dir
 
 # All Build rule for target.
-CMakeFiles/Class.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Class.dir\build.make CMakeFiles/Class.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Class.dir\build.make CMakeFiles/Class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\CS Related\Zhihu-Special-Column\C++\Class\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Class"
-.PHONY : CMakeFiles/Class.dir/all
+CMakeFiles/Dynamic_Pointer_object.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dynamic_Pointer_object.dir\build.make CMakeFiles/Dynamic_Pointer_object.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dynamic_Pointer_object.dir\build.make CMakeFiles/Dynamic_Pointer_object.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\CS Related\Zhihu-Special-Column\C++\Dynamic_Pointer_object\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Dynamic_Pointer_object"
+.PHONY : CMakeFiles/Dynamic_Pointer_object.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CS Related\Zhihu-Special-Column\C++\Class\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Class.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CS Related\Zhihu-Special-Column\C++\Class\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/Class.dir/rule
+CMakeFiles/Dynamic_Pointer_object.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CS Related\Zhihu-Special-Column\C++\Dynamic_Pointer_object\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Dynamic_Pointer_object.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CS Related\Zhihu-Special-Column\C++\Dynamic_Pointer_object\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Dynamic_Pointer_object.dir/rule
 
 # Convenience name for target.
-Class: CMakeFiles/Class.dir/rule
+Dynamic_Pointer_object: CMakeFiles/Dynamic_Pointer_object.dir/rule
 
-.PHONY : Class
+.PHONY : Dynamic_Pointer_object
 
 # clean rule for target.
-CMakeFiles/Class.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Class.dir\build.make CMakeFiles/Class.dir/clean
-.PHONY : CMakeFiles/Class.dir/clean
+CMakeFiles/Dynamic_Pointer_object.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dynamic_Pointer_object.dir\build.make CMakeFiles/Dynamic_Pointer_object.dir/clean
+.PHONY : CMakeFiles/Dynamic_Pointer_object.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
