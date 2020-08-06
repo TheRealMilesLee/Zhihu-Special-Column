@@ -1,8 +1,8 @@
-# Install script for directory: D:/CS Related/Zhihu-Special-Column/C++/Class
+# Install script for directory: /Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Class")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/CS Related/Zhihu-Special-Column/C++/Class/main.cpp" "D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/CMakeFiles/Class.dir/main.cpp.obj"
+  "/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/Calculate_Rectangle.cpp" "/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/CMakeFiles/Class.dir/Calculate_Rectangle.cpp.o"
+  "/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/Rectangle.cpp" "/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/CMakeFiles/Class.dir/Rectangle.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

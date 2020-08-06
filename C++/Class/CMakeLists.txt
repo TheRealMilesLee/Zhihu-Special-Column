@@ -3,4 +3,4 @@ project(Class)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Class main.cpp)
+add_executable(Class Calculate_Rectangle.cpp Rectangle.cpp Rectangle.h)

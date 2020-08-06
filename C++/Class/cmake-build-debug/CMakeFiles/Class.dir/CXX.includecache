@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/CS Related/Zhihu-Special-Column/C++/Class/main.cpp
+/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/Calculate_Rectangle.cpp
 iostream
 -
+Rectangle.h
+/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/Rectangle.h
+
+/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/Rectangle.cpp
+Rectangle.h
+/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/Rectangle.h
+iostream
+-
+cstdlib
+-
+
+/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/Rectangle.h
 

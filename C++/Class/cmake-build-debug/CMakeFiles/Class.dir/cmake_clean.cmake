@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Class.dir/main.cpp.obj"
-  "Class.exe"
-  "Class.exe.manifest"
+  "CMakeFiles/Class.dir/Calculate_Rectangle.cpp.o"
+  "CMakeFiles/Class.dir/Rectangle.cpp.o"
+  "Class"
   "Class.pdb"
-  "libClass.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

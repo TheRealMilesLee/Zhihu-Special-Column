@@ -8,82 +8,88 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug"/>
+				<Option working_dir="/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Class">
-				<Option output="D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Class.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 Class"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Class/fast">
-				<Option output="D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Class.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 Class/fast"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug"/>
+				<Option working_dir="/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/CS Related/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Class">
+				<Option output="/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.0.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.0.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 Class"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Class/fast">
+				<Option output="/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.0.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX11.0.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 Class/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CS Related/Zhihu-Special-Column/C++/Class/main.cpp">
+		<Unit filename="/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/Calculate_Rectangle.cpp">
 			<Option target="Class"/>
 		</Unit>
-		<Unit filename="D:/CS Related/Zhihu-Special-Column/C++/Class/CMakeLists.txt">
+		<Unit filename="/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/Rectangle.cpp">
+			<Option target="Class"/>
+		</Unit>
+		<Unit filename="/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/Rectangle.h">
+			<Option target="Class"/>
+		</Unit>
+		<Unit filename="/Users/leemiles/知乎专栏/Zhihu-Special-Column/C++/Class/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
