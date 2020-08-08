@@ -1,0 +1,3 @@
+D:/CS Related/Zhihu-Special-Column/C++/Passing_parameter_to_constructor/cmake-build-debug/CMakeFiles/Passing_parameter_to_constructor.dir
+D:/CS Related/Zhihu-Special-Column/C++/Passing_parameter_to_constructor/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CS Related/Zhihu-Special-Column/C++/Passing_parameter_to_constructor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
