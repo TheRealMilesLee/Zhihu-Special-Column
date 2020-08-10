@@ -4,6 +4,13 @@
 
 using namespace std;
 
+
+Rectangle::Rectangle()
+{
+  width = 0.0;
+  length = 0.0;
+}
+
 void Rectangle::setWidth(double w)
 {
   if(w >= 0)
@@ -28,20 +35,5 @@ void Rectangle::setLength(double len)
     cout << "Invalid width" << endl;
     exit(EXIT_FAILURE);
   }
-}
-
-double Rectangle::getWidth() const
-{
-  return width;
-}
-
-double Rectangle::getLength() const
-{
-  return length;
-}
-
-double Rectangle::getArea() const
-{
-  return width * length;
 }
 

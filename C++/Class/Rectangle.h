@@ -9,13 +9,23 @@ private:
     double width;
     double length;
 public:
+    Rectangle();
     void setWidth(double);
     void setLength(double);
-    double getWidth() const;
-    double getLength() const;
-    double getArea() const;
-};
 
+    double getWidth() const
+    {
+      return width;
+    }
+    double getLength() const
+    {
+      return length;
+    }
+    double getArea() const
+    {
+      return width * length;
+    }
+};
 
 //End specification
 #endif
