@@ -25,4 +25,5 @@ int main()
   cout << "The house is " << house.getArea() << " square feet in area"
        << endl;
 
+  return 0;
 }

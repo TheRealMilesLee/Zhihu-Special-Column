@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_C_COMPILER=C:/Program Files/mingw64/bin/gcc.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files/mingw64/bin/g++.exe" -G "CodeBlocks - MinGW Makefiles" "D:\CS Related\Zhihu-Special-Column\C++\Overloaded_Constructor"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/CS Related/Zhihu-Special-Column/C++/Overloaded_Constructor/cmake-build-debug

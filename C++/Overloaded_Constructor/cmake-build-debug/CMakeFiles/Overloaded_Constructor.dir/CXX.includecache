@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CS Related/Zhihu-Special-Column/C++/Overloaded_Constructor/InventoryItem.cpp
+iostream
+-
+iomanip
+-
+InventoryItem.h
+D:/CS Related/Zhihu-Special-Column/C++/Overloaded_Constructor/InventoryItem.h
+
+D:/CS Related/Zhihu-Special-Column/C++/Overloaded_Constructor/InventoryItem.h
+string
+-
+
