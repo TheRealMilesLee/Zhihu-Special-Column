@@ -36,6 +36,7 @@ int main() {
 }
 ```
 ## Project Structure
+```
 .
 ├── .vscode/                // VS Code configuration
 ├── C++/                    // Main source code directory
@@ -53,6 +54,7 @@ int main() {
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 ## Dependencies
 - CMake 3.17.3+ for build configuration
 - Standard C++17 compiler support
